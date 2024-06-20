@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: Gov-DEP-AzureDevOps-Automation
 
 steps:
 - script: echo Hello, world!
